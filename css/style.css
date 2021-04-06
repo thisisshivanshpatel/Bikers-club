@@ -1,0 +1,129 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#slider
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.sliderDiv
+{
+    position: relative;
+}
+
+.sliderButton
+{
+    padding: 10px 10px;
+    background-color: crimson;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 23px;
+    font-weight:bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+    
+}
+
+.sliderButton:hover
+{
+    background-color:gray;
+}
+
+.products h1
+{
+    font-size: 55px;
+    color:orange;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.products p
+{
+    font-size: 35px;
+    color: gray;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+}
+
+.products
+{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 25px;
+}
+
+.card {
+    height: 350px;
+    width: 300px;
+    color: antiquewhite;
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-top: 25px;
+  /*  font-weight: bold;*/
+    text-align: center;
+    background-color: #17141d;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+  }
+
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+
+  .card img
+  {
+      width: 80%;
+      height: 150px;
+      border-radius: 15px;
+      margin-top: 10px;
+  }
+
+  .card h1
+  {
+     font-size: 25px;
+     color:orange;
+     font-weight: bold;
+     font-family: 'Baloo Bhai 2', cursive; 
+  }
+
+  .card p
+  {
+    margin-top: 15px;
+    font-size: 20px;
+    color:seagreen;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive; 
+  }
+
+#aboutus h1
+{
+     text-align: center;
+     color: orange;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive; 
+    font-size: 55px;
+}
+
+#aboutus p
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive; 
+    font-size: 35px;
+}
